@@ -1,0 +1,23 @@
+{
+  "name": "jamstack",
+  "version": "1.0.0",
+  "description": "## Homework",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kram3r30/JAMStack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kram3r30/JAMStack/issues"
+  },
+  "homepage": "https://github.com/kram3r30/JAMStack#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  }
+}
