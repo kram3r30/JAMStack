@@ -10,6 +10,7 @@
   <body class="{{ pageClass }}">
     <nav aria-label="Primary navigaton">
       <ul>
+        <li><a href="/">Home</a></li>
         {% for page in collections.page %}
         <li>
           <a href="{{ page.url | url }}">{{ page.data.navTitle }}</a>
@@ -18,11 +19,11 @@
       </ul>
     </nav>
 
-    <p>Testing CI</p>
-
     <main tabindex="-1" class="content">
       <h1>{{ pageTitle }}</h1>
       {{ content }}
     </main>
+
+    <script src="/js/scripts.js"></script>
   </body>
 </html>
