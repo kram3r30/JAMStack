@@ -15,10 +15,11 @@ function showData(stories) {
       (article) => `
         <div class="item">
 
+        
         <picture>
           <img src="${article.multimedia[1].url}" alt="" />
-          <caption>${article.multimedia[1].caption}</caption>
-        </picture>
+          <figcaption>${article.multimedia[1].figcaption}</figcaption>
+        </picture>521
 
           <h3><a href="${article.url}">${article.title}</a></h3>
           <p>${article.abstract}</p>
